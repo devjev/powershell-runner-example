@@ -4,12 +4,9 @@
 // to host.
 // 
 
-#nowarn
-
 open System
 open System.IO
 open System.Management.Automation
-open System.Collections.ObjectModel
 open CommandLine
 
 

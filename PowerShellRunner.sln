@@ -1,17 +1,30 @@
-
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2012
-Project("{f2a71f9b-5d33-465a-a702-920d77279786}") = "PowerShellRunner", "PowerShellRunner\PowerShellRunner.fsproj", "{8A79F510-6D56-402D-BD77-2EC3C8275412}"
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2035
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "PowerShellRunner", "PowerShellRunner\PowerShellRunner.fsproj", "{8A79F510-6D56-402D-BD77-2EC3C8275412}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
 		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
 		Release|x86 = Release|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8A79F510-6D56-402D-BD77-2EC3C8275412}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8A79F510-6D56-402D-BD77-2EC3C8275412}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8A79F510-6D56-402D-BD77-2EC3C8275412}.Debug|x86.ActiveCfg = Debug|x86
 		{8A79F510-6D56-402D-BD77-2EC3C8275412}.Debug|x86.Build.0 = Debug|x86
+		{8A79F510-6D56-402D-BD77-2EC3C8275412}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8A79F510-6D56-402D-BD77-2EC3C8275412}.Release|Any CPU.Build.0 = Release|Any CPU
 		{8A79F510-6D56-402D-BD77-2EC3C8275412}.Release|x86.ActiveCfg = Release|x86
 		{8A79F510-6D56-402D-BD77-2EC3C8275412}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F888832F-C545-4C48-B493-16F884F1C88E}
 	EndGlobalSection
 EndGlobal

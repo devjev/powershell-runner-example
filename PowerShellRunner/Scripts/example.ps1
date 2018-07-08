@@ -1,1 +1,6 @@
-﻿Write-Host "Hello!"
+﻿Write-Output "Hello!"
+Write-Output "Hello!"
+Write-Output "Hello!"
+Write-Output "Hello!"
+Write-Output "Hello!"
+Write-Output "Hello!"
